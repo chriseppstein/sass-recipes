@@ -1,0 +1,14 @@
+// Clearing floats without extra markup
+// Based on How To Clear Floats Without Structural Markup by PiE
+// [http://www.positioniseverything.net/easyclearing.html]
+// From the official sass documentation.
+=clearfix
+  display: inline-block
+  &:after
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+  * html &
+    height: 1px
