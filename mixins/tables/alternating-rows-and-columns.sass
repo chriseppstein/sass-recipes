@@ -1,0 +1,42 @@
+!dark_intersection= #111
+!even_row= #f4f2e8 - #111
+!odd_row= #eeebd9 - #111
+
+/*
+  // Styles for a table structured like so
+  %table.alternating{:cellpadding => 0, :cellspacing => 0, :border => 0}
+    %thead
+      %tr
+        %td &nbsp;
+        %th.even First Column
+        %th.odd Second Column
+        %th.even Third Column
+    %tbody
+      - for row in rows
+        %tr{:class => cycle('even', 'odd')}
+          %th=      row[0]
+          %td.even= row[1]
+          %td.odd=  row[2]
+          %td.even= row[3]
+
+=alternating-rows-and-columns
+  td,
+  th
+    :padding 2px
+    &.numeric
+      :text-align right
+  tbody
+    th
+      :text-align center
+  thead
+    :font-size .9em
+    th.even
+      :background-color= #fff - !dark_intersection
+  tr.odd
+    :background-color= !odd_row
+    td.even
+      :background-color= !odd_row - !dark_intersection
+  tr.even
+    :background-color= !even_row
+    td.even
+      :background-color= !even_row - !dark_intersection
