@@ -1,7 +1,3 @@
-!dark_intersection= #111
-!even_row= #e3e1d7
-!odd_row= #dddae8
-
 /*
   // Styles for a table structured like so
   %table.alternating{:cellpadding => 0, :cellspacing => 0, :border => 0}
@@ -18,8 +14,11 @@
           %td.even= row[1]
           %td.odd=  row[2]
           %td.even= row[3]
+  // Mixin is called like this
+  table.alternating
+    +alternating-rows-and-columns(#e3e1d7, #dddae8, #111)
 
-=alternating-rows-and-columns
+=alternating-rows-and-columns(!even_row_color, !odd_row_color, !dark_intersection)
   td,
   th
     :padding 2px
