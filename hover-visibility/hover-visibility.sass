@@ -11,8 +11,14 @@
   visibility: visible
   opacity: 1
 
-div.within-container
+.container
+  width: 400px
+  border: 10px solid #777
+  margin: 100px auto
+  text-align: center
+
+.within-container
   +hover-visiblity-hidden
-  .container &,
+  .container:hover &,
   &.sticky
     +hover-visibility-visible  
