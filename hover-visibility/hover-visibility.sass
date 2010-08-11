@@ -1,0 +1,16 @@
+// Provides a nice visibility transition for a nested element
+// with gracefull degradation.
+=hover-visiblity-hidden($duration: 0.333s)
+  visibility: hidden
+  opacity: 0
+  +transition(opacity visibility, $duration, ease)
+
+=hover-visibility-visible
+  visibility: visible
+  opacity: 1
+
+div.within-container
+  +hover-visiblity-hidden
+  .container &,
+  &.sticky
+    +hover-visibility-visible  
