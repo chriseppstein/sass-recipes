@@ -1,0 +1,24 @@
+=feedback-tab($color: red, $side: left, $y-position: 250px, $feedback-text-img: "fbtxt.png")
+  $border-color: darken($color, 10)
+  display: block
+  padding: 2px
+  background: $color
+  border: 2px solid $border-color
+  height: image-height($feedback-text-img)
+  width: image-width($feedback-text-img)
+  position: fixed
+  top: $y-position
+  #{$side}: 0px
+  border-#{$side}: 0px
+  padding-#{$side}: 1px
+  span
+    display: block
+    +replace-text-with-dimensions($feedback-text-img)
+  &:hover, &:active
+    cursor: pointer
+  &:hover
+    background: lighten($color, 10)
+    border-color: lighten($border-color, 10)
+  &:active
+    background: darken($color, 10)
+    border-color: darken($border-color, 10)
