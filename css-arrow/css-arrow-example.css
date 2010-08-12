@@ -1,0 +1,120 @@
+body {
+  font-family: "Helvetica Neue", Arial, san-serif;
+  font-size: 12px; }
+
+.arrow {
+  border: 1px solid #456eb9;
+  background: #e7eff4;
+  height: 100px;
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 10px; }
+  .arrow.east {
+    margin-right: 50px;
+    position: relative; }
+    .arrow.east:before {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 520px;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: transparent transparent transparent #456eb9; }
+    .arrow.east:after {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 519px;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: transparent transparent transparent #e7eff4; }
+  .arrow.south {
+    margin-bottom: 50px;
+    position: relative; }
+    .arrow.south:before {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 120px;
+      left: 0;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: #456eb9 transparent transparent transparent; }
+    .arrow.south:after {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 119px;
+      left: 0;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: #e7eff4 transparent transparent transparent; }
+  .arrow.north {
+    margin-top: -15px;
+    position: relative; }
+    .arrow.north:before {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: -50px;
+      left: 400px;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: transparent transparent #456eb9 transparent; }
+    .arrow.north:after {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: -49px;
+      left: 400px;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: transparent transparent #e7eff4 transparent; }
+  .arrow.west {
+    margin-left: 50px;
+    width: 450px;
+    position: relative; }
+    .arrow.west:before {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: -50px;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: transparent #456eb9 transparent transparent; }
+    .arrow.west:after {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: -49px;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: transparent #e7eff4 transparent transparent; }

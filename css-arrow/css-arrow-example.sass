@@ -1,0 +1,32 @@
+@import 'css-arrow'
+
+body
+  font-family: 'Helvetica Neue', Arial, san-serif
+  font-size: 12px
+  
+.arrow
+  $bg-color: #e7eff4
+  $border-color: #456eb9
+  $border-width: 1px
+  $arrow-width: 50px
+  border: $border-width solid $border-color
+  background: $bg-color
+  height: 100px
+  width: 500px
+  padding: 10px
+  margin-bottom: 10px
+  
+  &.east
+    margin-right: $arrow-width
+    +arrow( 'east', $bg-color, $border-color, $border-width, 0, 520px, $arrow-width )
+  &.south
+    margin-bottom: $arrow-width
+    +arrow( 'south', $bg-color, $border-color, $border-width, 120px, 0, $arrow-width )
+  &.north
+    margin-top: (($arrow-width/2) * -1) + 10px
+    +arrow( 'north', $bg-color, $border-color, $border-width, -50px, 400px, $arrow-width )
+  &.west
+    margin-left: $arrow-width
+    width: 500px - $arrow-width
+    +arrow( 'west', $bg-color, $border-color, $border-width, 0, -50px, $arrow-width )
+  
