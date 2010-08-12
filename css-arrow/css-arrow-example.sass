@@ -15,7 +15,6 @@ body
   width: 500px
   padding: 10px
   margin-bottom: 10px
-  
   &.east
     margin-right: $arrow-width
     +arrow( 'east', $bg-color, $border-color, $border-width, 0, 520px, $arrow-width )
@@ -29,4 +28,23 @@ body
     margin-left: $arrow-width
     width: 500px - $arrow-width
     +arrow( 'west', $bg-color, $border-color, $border-width, 0, -50px, $arrow-width )
+  &.borderless
+    $border-width: 0px
+    border: none
+    margin-right: $arrow-width
+    +arrow( 'east', $bg-color, $border-color, $border-width, 0, 520px, $arrow-width )
+  
+blockquote
+  $bg-color: #ccc
+  $border-color: #333
+  $border-width: 5px
+  $arrow-width: 30px
+  border: $border-width solid $border-color
+  background: $bg-color
+  height: 90px
+  width: 490px
+  padding: 10px
+  margin-bottom: $arrow-width
+  margin-left: 0
+  +arrow( 'south', $bg-color, $border-color, $border-width, 110px, 450px, $arrow-width )
   

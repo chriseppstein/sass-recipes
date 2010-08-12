@@ -118,3 +118,65 @@ body {
       border-width: 25px;
       border-style: solid;
       border-color: transparent #e7eff4 transparent transparent; }
+  .arrow.borderless {
+    border: none;
+    margin-right: 50px;
+    position: relative; }
+    .arrow.borderless:before {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 520px;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: transparent transparent transparent #456eb9; }
+    .arrow.borderless:after {
+      content: "\00a0";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 520px;
+      bottom: auto;
+      border-width: 25px;
+      border-style: solid;
+      border-color: transparent transparent transparent #e7eff4; }
+
+blockquote {
+  border: 5px solid #333333;
+  background: #cccccc;
+  height: 90px;
+  width: 490px;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  position: relative; }
+  blockquote:before {
+    content: "\00a0";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 110px;
+    left: 450px;
+    bottom: auto;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #333333 transparent transparent transparent; }
+  blockquote:after {
+    content: "\00a0";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 105px;
+    left: 450px;
+    bottom: auto;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #cccccc transparent transparent transparent; }
