@@ -1,0 +1,30 @@
+/* line 14, hover-visibility.sass */
+.container {
+  width: 400px;
+  border: 10px solid #777777;
+  margin: 100px auto;
+  text-align: center;
+}
+
+/* line 20, hover-visibility.sass */
+.within-container {
+  visibility: hidden;
+  opacity: 0;
+  -moz-transition-property: opacity visibility;
+  -webkit-transition-property: opacity visibility;
+  -o-transition-property: opacity visibility;
+  transition-property: opacity visibility;
+  -moz-transition-duration: 0.333s;
+  -webkit-transition-duration: 0.333s;
+  -o-transition-duration: 0.333s;
+  transition-duration: 0.333s;
+  -moz-transition-timing-function: ease;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+/* line 22, hover-visibility.sass */
+.container:hover .within-container, .within-container.sticky {
+  visibility: visible;
+  opacity: 1;
+}
