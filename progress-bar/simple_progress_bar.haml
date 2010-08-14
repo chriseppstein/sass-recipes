@@ -1,0 +1,7 @@
+!!! 5
+%head
+  %link(rel="stylesheet" href="simple_progress_bar.css")
+%body
+  - percent_full = 0.55
+  .bar
+    .fill{:style => "width: #{(percent_full*100).round}%"}

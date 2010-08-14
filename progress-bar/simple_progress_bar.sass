@@ -1,0 +1,12 @@
+@import compass/css3
+$bar-fill-color: #A9C13B
+
+.bar
+  border: 1px solid #666
+  margin-top: 0.25em
+.fill
+  height: 1.333em
+  background: $bar-fill-color
+  +linear-gradient(color-stops($bar-fill-color, darken($bar-fill-color, 25%)))
+.bar, .fill
+  +border-radius(3px)
