@@ -13,3 +13,12 @@ Generally useful recipes might be added to compass.
 
 ## Building
 You can (re-)build the recipes by running `rake`.
+
+## Adding Recipes to the Live Demo
+After committing and pushing your changes to the master branch,
+all html and css files will be transferred to/updated on the
+github pages branch when you run:
+
+    rake pages
+
+Afterwards, you'll be on the `gh-pages` branch where you can edit the index.html file to add links, etc and then push the update.
