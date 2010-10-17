@@ -1,152 +1,187 @@
+/* line 3, css-arrow-example.sass */
 body {
   font-family: "Helvetica Neue", Arial, san-serif;
-  font-size: 12px; }
+  font-size: 12px;
+}
 
+/* line 7, css-arrow-example.sass */
 .arrow {
   border: 1px solid #456eb9;
   background: #e7eff4;
   height: 100px;
   width: 500px;
   padding: 10px;
-  margin-bottom: 10px; }
-  .arrow.east {
-    margin-right: 50px;
-    position: relative; }
-    .arrow.east:before {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 0;
-      left: 520px;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: transparent transparent transparent #456eb9; }
-    .arrow.east:after {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 0;
-      left: 519px;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: transparent transparent transparent #e7eff4; }
-  .arrow.south {
-    margin-bottom: 50px;
-    position: relative; }
-    .arrow.south:before {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 120px;
-      left: 0;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: #456eb9 transparent transparent transparent; }
-    .arrow.south:after {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 119px;
-      left: 0;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: #e7eff4 transparent transparent transparent; }
-  .arrow.north {
-    margin-top: -15px;
-    position: relative; }
-    .arrow.north:before {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: -50px;
-      left: 400px;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: transparent transparent #456eb9 transparent; }
-    .arrow.north:after {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: -49px;
-      left: 400px;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: transparent transparent #e7eff4 transparent; }
-  .arrow.west {
-    margin-left: 50px;
-    width: 450px;
-    position: relative; }
-    .arrow.west:before {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 0;
-      left: -50px;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: transparent #456eb9 transparent transparent; }
-    .arrow.west:after {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 0;
-      left: -49px;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: transparent #e7eff4 transparent transparent; }
-  .arrow.borderless {
-    border: none;
-    margin-right: 50px;
-    position: relative; }
-    .arrow.borderless:before {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 0;
-      left: 520px;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: transparent transparent transparent #456eb9; }
-    .arrow.borderless:after {
-      content: "\00a0";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 0;
-      left: 520px;
-      bottom: auto;
-      border-width: 25px;
-      border-style: solid;
-      border-color: transparent transparent transparent #e7eff4; }
+  margin-bottom: 10px;
+}
+/* line 18, css-arrow-example.sass */
+.arrow.east {
+  margin-right: 50px;
+  position: relative;
+}
+/* line 13, _css-arrow.sass */
+.arrow.east:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 520px;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent transparent transparent #456eb9;
+}
+/* line 38, _css-arrow.sass */
+.arrow.east:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 519px;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent transparent transparent #e7eff4;
+}
+/* line 21, css-arrow-example.sass */
+.arrow.south {
+  margin-bottom: 50px;
+  position: relative;
+}
+/* line 13, _css-arrow.sass */
+.arrow.south:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 120px;
+  left: 0;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: #456eb9 transparent transparent transparent;
+}
+/* line 38, _css-arrow.sass */
+.arrow.south:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 119px;
+  left: 0;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: #e7eff4 transparent transparent transparent;
+}
+/* line 24, css-arrow-example.sass */
+.arrow.north {
+  margin-top: -15px;
+  position: relative;
+}
+/* line 13, _css-arrow.sass */
+.arrow.north:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -50px;
+  left: 400px;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent transparent #456eb9 transparent;
+}
+/* line 38, _css-arrow.sass */
+.arrow.north:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -49px;
+  left: 400px;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent transparent #e7eff4 transparent;
+}
+/* line 27, css-arrow-example.sass */
+.arrow.west {
+  margin-left: 50px;
+  width: 450px;
+  position: relative;
+}
+/* line 13, _css-arrow.sass */
+.arrow.west:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: -50px;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent #456eb9 transparent transparent;
+}
+/* line 38, _css-arrow.sass */
+.arrow.west:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: -49px;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent #e7eff4 transparent transparent;
+}
+/* line 31, css-arrow-example.sass */
+.arrow.borderless {
+  border: none;
+  margin-right: 50px;
+  position: relative;
+}
+/* line 13, _css-arrow.sass */
+.arrow.borderless:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 520px;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent transparent transparent #456eb9;
+}
+/* line 38, _css-arrow.sass */
+.arrow.borderless:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 520px;
+  bottom: auto;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent transparent transparent #e7eff4;
+}
 
+/* line 37, css-arrow-example.sass */
 blockquote {
   border: 5px solid #333333;
   background: #cccccc;
@@ -155,28 +190,33 @@ blockquote {
   padding: 10px;
   margin-bottom: 30px;
   margin-left: 0;
-  position: relative; }
-  blockquote:before {
-    content: "\00a0";
-    display: block;
-    position: absolute;
-    width: 0;
-    height: 0;
-    top: 110px;
-    left: 450px;
-    bottom: auto;
-    border-width: 15px;
-    border-style: solid;
-    border-color: #333333 transparent transparent transparent; }
-  blockquote:after {
-    content: "\00a0";
-    display: block;
-    position: absolute;
-    width: 0;
-    height: 0;
-    top: 105px;
-    left: 450px;
-    bottom: auto;
-    border-width: 15px;
-    border-style: solid;
-    border-color: #cccccc transparent transparent transparent; }
+  position: relative;
+}
+/* line 13, _css-arrow.sass */
+blockquote:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 110px;
+  left: 450px;
+  bottom: auto;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #333333 transparent transparent transparent;
+}
+/* line 38, _css-arrow.sass */
+blockquote:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 105px;
+  left: 450px;
+  bottom: auto;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #cccccc transparent transparent transparent;
+}
