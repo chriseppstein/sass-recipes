@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Hover Visibility Example</title>
+    <link rel="stylesheet" href="hover-visibility.css" type="text/css" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>A Container</h1>
+      <p>This container has stuff that you can only see
+         when you hover over it.</p>
+      <div id="contained" class="within-container">
+        You must be hovering.
+        <a href="javascript:document.getElementById('contained').className = 'within-container sticky'">Click to stick.</a>
+      </div>
+    </div>
+  </body>
+</html>
