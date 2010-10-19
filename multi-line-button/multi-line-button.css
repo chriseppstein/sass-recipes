@@ -66,6 +66,11 @@ body {
 }
 
 /* line 11, multi-line-button.sass */
+p {
+  margin: 1em 0;
+}
+
+/* line 14, multi-line-button.sass */
 a.multi-line-button {
   -moz-background-clip: padding;
   -webkit-background-clip: padding;
@@ -152,7 +157,7 @@ a.multi-line-button:active, a.multi-line-button.depressed {
   box-shadow: none;
   border-color: #2970a9;
 }
-/* line 13, multi-line-button.sass */
+/* line 16, multi-line-button.sass */
 a.multi-line-button.green {
   background-color: #63bb4a;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #83c96f), color-stop(50%, #63bb4a), color-stop(100%, #4e9939));
@@ -185,7 +190,7 @@ a.multi-line-button.green:active, a.multi-line-button.green.depressed {
   box-shadow: none;
   border-color: #3b742b;
 }
-/* line 15, multi-line-button.sass */
+/* line 18, multi-line-button.sass */
 a.multi-line-button.red {
   background-color: #bf4040;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #cc6666), color-stop(50%, #bf4040), color-stop(100%, #993333));
@@ -218,7 +223,7 @@ a.multi-line-button.red:active, a.multi-line-button.red.depressed {
   box-shadow: none;
   border-color: #732626;
 }
-/* line 17, multi-line-button.sass */
+/* line 20, multi-line-button.sass */
 a.multi-line-button.orange {
   background-color: #d98026;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #e19951), color-stop(50%, #d98026), color-stop(100%, #ae661e));
