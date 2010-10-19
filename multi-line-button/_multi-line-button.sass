@@ -1,4 +1,4 @@
-=multi-line-button($base-color, $shiny: false)
+=multi-line-button($base-color)
   +background-clip('padding-box')
   border-width: 1px
   +border-radius(6px)
@@ -45,7 +45,7 @@
   border-top-color: $light-border-color
   +box-shadow($highlight-color, 1px, 1px, 0, 0, inset)
   color: white
-  +text-shadow($text-shadow-color, 0, 0, 5px)
+  +text-shadow($text-shadow-color, 0, 1px, 2px)
   &:hover, &:focus
     +linear-gradient(color-stops(lighten($light-color, 5%), lighten($base-color, 5%), $dark-color))
   &:active, &.depressed
