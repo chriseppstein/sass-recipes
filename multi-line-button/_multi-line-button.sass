@@ -1,0 +1,57 @@
+=multi-line-button($base-color, $shiny: false)
+  +background-clip('padding-box')
+  border-width: 1px
+  +border-radius(6px)
+  border-style: solid
+  color: white
+  display: block
+  +inline-block
+  margin: 0.2em 0
+  padding: 12px 15px
+  text-align: center
+  text-decoration: none
+  .title
+    font-size: 24px
+    font-weight: bold
+    display: block
+    +opacity(0.9)
+  .subtitle
+    font-size: 14px
+    display: block
+    margin-top: 4px
+    +opacity(0.7)
+  &:hover
+    .title
+      +opacity(1)
+    .subtitle
+      +opacity(0.8)
+  &:active
+    padding: 13px 15px 11px
+  @if $base-color != none
+    +color-multi-line-button($base-color)
+  @if $shiny
+    +shine-multi-line-button
+
+=color-multi-line-button($base-color)
+  $dark-color: darken($base-color, 10%)
+  $light-color: lighten($base-color, 10%)
+  $border-color: darken($base-color, 20%)
+  $light-border-color: lighten($base-color, 0%)
+  $highlight-color: transparentize(desaturate(lighten($base-color, 40%), 50%), 0.5)
+  $shadow-color: darken($base-color, 15%)
+  $text-shadow-color: darken($base-color, 15%)
+  background-color: $base-color
+  +linear-gradient(color-stops($light-color, $base-color, $dark-color))
+  border-color: $border-color
+  border-left-color: $light-border-color
+  border-top-color: $light-border-color
+  +box-shadow($highlight-color, 1px, 1px, 0, 0, inset)
+  color: white
+  +text-shadow($text-shadow-color, 0, 0, 5px)
+  &:hover, &:focus
+    +linear-gradient(color-stops(lighten($light-color, 5%), lighten($base-color, 5%), $dark-color))
+  &:active, &.depressed
+    +linear-gradient(color-stops(desaturate(lighten($dark-color, 5%),10%), desaturate($base-color, 10%)))
+    +box-shadow(none)
+    border-color: $border-color
+    

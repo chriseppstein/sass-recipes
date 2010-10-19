@@ -1,0 +1,18 @@
+@import compass
+@import multi-line-button
+
++global-reset
+
+body
+  font-family: 'Trebuchet MS', 'Lucida Grande', Helvetica, Arial, sans-serif
+  padding: 30px
+  text-align: center
+
+a.multi-line-button
+  +multi-line-button(#60a3d8)
+  &.green
+    +color-multi-line-button(#63bb4a)
+  &.red
+    +color-multi-line-button(#bf4040)
+  &.orange
+    +color-multi-line-button(#d98026)
