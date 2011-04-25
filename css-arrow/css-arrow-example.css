@@ -18,7 +18,7 @@ body {
   margin-right: 50px;
   position: relative;
 }
-/* line 13, _css-arrow.sass */
+/* line 12, _css-arrow.sass */
 .arrow.east:before {
   content: "\00a0";
   display: block;
@@ -32,7 +32,7 @@ body {
   border-style: solid;
   border-color: transparent transparent transparent #456eb9;
 }
-/* line 38, _css-arrow.sass */
+/* line 33, _css-arrow.sass */
 .arrow.east:after {
   content: "\00a0";
   display: block;
@@ -51,7 +51,7 @@ body {
   margin-bottom: 50px;
   position: relative;
 }
-/* line 13, _css-arrow.sass */
+/* line 12, _css-arrow.sass */
 .arrow.south:before {
   content: "\00a0";
   display: block;
@@ -65,7 +65,7 @@ body {
   border-style: solid;
   border-color: #456eb9 transparent transparent transparent;
 }
-/* line 38, _css-arrow.sass */
+/* line 33, _css-arrow.sass */
 .arrow.south:after {
   content: "\00a0";
   display: block;
@@ -84,7 +84,7 @@ body {
   margin-top: -15px;
   position: relative;
 }
-/* line 13, _css-arrow.sass */
+/* line 12, _css-arrow.sass */
 .arrow.north:before {
   content: "\00a0";
   display: block;
@@ -98,7 +98,7 @@ body {
   border-style: solid;
   border-color: transparent transparent #456eb9 transparent;
 }
-/* line 38, _css-arrow.sass */
+/* line 33, _css-arrow.sass */
 .arrow.north:after {
   content: "\00a0";
   display: block;
@@ -118,7 +118,7 @@ body {
   width: 450px;
   position: relative;
 }
-/* line 13, _css-arrow.sass */
+/* line 12, _css-arrow.sass */
 .arrow.west:before {
   content: "\00a0";
   display: block;
@@ -132,7 +132,7 @@ body {
   border-style: solid;
   border-color: transparent #456eb9 transparent transparent;
 }
-/* line 38, _css-arrow.sass */
+/* line 33, _css-arrow.sass */
 .arrow.west:after {
   content: "\00a0";
   display: block;
@@ -152,7 +152,7 @@ body {
   margin-right: 50px;
   position: relative;
 }
-/* line 13, _css-arrow.sass */
+/* line 12, _css-arrow.sass */
 .arrow.borderless:before {
   content: "\00a0";
   display: block;
@@ -166,7 +166,7 @@ body {
   border-style: solid;
   border-color: transparent transparent transparent #456eb9;
 }
-/* line 38, _css-arrow.sass */
+/* line 33, _css-arrow.sass */
 .arrow.borderless:after {
   content: "\00a0";
   display: block;
@@ -192,7 +192,7 @@ blockquote {
   margin-left: 0;
   position: relative;
 }
-/* line 13, _css-arrow.sass */
+/* line 12, _css-arrow.sass */
 blockquote:before {
   content: "\00a0";
   display: block;
@@ -206,7 +206,7 @@ blockquote:before {
   border-style: solid;
   border-color: #333333 transparent transparent transparent;
 }
-/* line 38, _css-arrow.sass */
+/* line 33, _css-arrow.sass */
 blockquote:after {
   content: "\00a0";
   display: block;
