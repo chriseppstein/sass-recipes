@@ -1,0 +1,26 @@
+@import "compass";
+@import "timing-functions";
+
+.animatable {
+  width: 100px;
+  height: 100px;
+  @include transition-property("height, width");
+  @include transition-duration(1s); 
+  .active & {
+    width: 200px;
+    height: 200px; } }
+
+.box {
+  position: absolute;
+  top: 200px;
+  background: red; }
+  
+.ease-out-expo-animation {
+  @extend .animatable;
+  left: 0;
+  @include transition-timing-function(ease-out-expo()); }
+
+.ease-in-expo-animation {
+  @extend .animatable;
+  left: 240px;
+  @include transition-timing-function(ease-in-expo()); }

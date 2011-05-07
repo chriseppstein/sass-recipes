@@ -1,0 +1,43 @@
+/* line 4, timing-functions.scss */
+.animatable, .ease-out-expo-animation, .ease-in-expo-animation {
+  width: 100px;
+  height: 100px;
+  -moz-transition-property: height, width;
+  -webkit-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+/* line 9, timing-functions.scss */
+.active .animatable, .active .ease-out-expo-animation, .active .ease-in-expo-animation {
+  width: 200px;
+  height: 200px;
+}
+
+/* line 13, timing-functions.scss */
+.box {
+  position: absolute;
+  top: 200px;
+  background: red;
+}
+
+/* line 18, timing-functions.scss */
+.ease-out-expo-animation {
+  left: 0;
+  -moz-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* line 23, timing-functions.scss */
+.ease-in-expo-animation {
+  left: 240px;
+  -moz-transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  -webkit-transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  -o-transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
