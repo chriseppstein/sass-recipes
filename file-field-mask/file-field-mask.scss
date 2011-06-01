@@ -5,15 +5,17 @@ Date: Wed June 1 2011*/
 
 ol {
   list-style-type: none;
+  
   li.file {
+   
     width: 100%;
     height: 50px;
     
     label {
       float: left;
       line-height: 15px;
-      margin: 10px;
-    }
+      margin: 10px;}
+    
     input[type=file]{
       height:35px;
       font-size:20px;
@@ -23,22 +25,23 @@ ol {
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
       opacity: 0;
       z-index: 2;}
-      #fake-file-field {
-        background: url(../images/file-field-mask.png) no-repeat;
-        position: absolute;
-        left: 95px;
-        top: 50px;
+    
+    #fake-file-field {
+      background: url(../images/file-field-mask.png) no-repeat;
+      position: absolute;
+      left: 95px;
+      top: 50px;
+      height: 50px;
+      font-size: 12px;
+      width: 390px;
+      z-index: 1;
+      .input {
         height: 50px;
-        font-size: 12px;
-        width: 390px;
-        z-index: 1;
-        .input {
-          height: 50px;
-          left: 10px;
-          overflow: hidden;
-          position: relative;
-          top: 5px;
-          width: 280px;}
+        left: 10px;
+        overflow: hidden;
+        position: relative;
+        top: 5px;
+        width: 280px;}
     }
   }
 }
