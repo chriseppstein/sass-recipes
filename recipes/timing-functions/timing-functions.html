@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timing Functions</title>
+    <link href='timing-functions.css' rel='stylesheet' />
+    <script type='text/javascript'>
+      //<![CDATA[
+        var isOn = false;
+        setInterval(function() {
+          document.getElementById("container").className = (isOn) ? "" : "active";
+          isOn = !isOn;
+        }, 2000);
+      //]]>
+    </script>
+  </head>
+  <body>
+    <p>
+      The box below will animate from a 100px square to a 200px square using 2 different cubic-bezier timing functions
+    </p>
+    <img src='expo-ease-out.jpg' />
+    <img src='expo-ease-in.jpg' />
+    <div id='container'>
+      <div class='box ease-out-expo-animation'></div>
+      <div class='box ease-in-expo-animation'></div>
+    </div>
+  </body>
+</html>
