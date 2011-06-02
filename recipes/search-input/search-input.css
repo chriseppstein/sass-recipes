@@ -11,7 +11,7 @@ input[type=search], input.search {
   border-top-color: #999999;
   border-left-color: #b0b0b0;
   border-right-color: #bbbbbb;
-  background: white url('/images/search.png?1287280523') 4px center no-repeat;
+  background: white url('../../images/search.png?1287280523') 4px center no-repeat;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
   -o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
