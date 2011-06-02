@@ -6,5 +6,5 @@ ol { list-style-type: none; }
 ol li.file { width: 100%; height: 50px; }
 ol li.file label { float: left; line-height: 15px; margin: 10px; }
 ol li.file input[type=file] { height: 35px; font-size: 20px; position: relative; text-align: left; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; z-index: 2; }
-ol li.file #fake-file-field { background: url(../images/file-field-mask.png) no-repeat; position: absolute; left: 95px; top: 50px; height: 50px; font-size: 12px; width: 390px; z-index: 1; }
+ol li.file #fake-file-field { background: url(../../images/file-field-mask.png) no-repeat; position: absolute; left: 95px; top: 50px; height: 50px; font-size: 12px; width: 390px; z-index: 1; }
 ol li.file #fake-file-field .input { height: 50px; left: 10px; overflow: hidden; position: relative; top: 5px; width: 280px; }
