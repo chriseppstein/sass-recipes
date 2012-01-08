@@ -1,0 +1,21 @@
+@import compass
+@import button
+
++global-reset
+
+body
+  font-family: 'Trebuchet MS', 'Lucida Grande', Helvetica, Arial, sans-serif
+  padding: 30px
+  text-align: center
+
+p
+  margin: 1em 0
+
+a.button
+  +button(#60a3d8)
+  &.green
+    +color-button(#63bb4a)
+  &.red
+    +color-button(#bf4040)
+  &.orange
+    +color-button(#d98026)

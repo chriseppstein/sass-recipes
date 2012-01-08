@@ -1,0 +1,42 @@
+=button($base-color)
+  +background-clip('padding-box')
+  +border-radius(6px)
+  +inline-block
+  +opacity(0.9)
+  border-style: solid
+  border-width: 1px
+  color: white
+  margin: 0.2em auto
+  padding: 9px 1em
+  text-align: center
+  text-decoration: none
+  &:hover
+    +opacity(1)
+  &:active
+    padding: 10px 1em 8px
+  @if $base-color != none
+    +color-button($base-color)
+
+=color-button($base-color)
+  $border-color: darken($base-color, 20%)
+  $dark-color: darken($base-color, 10%)
+  $highlight-color: transparentize(desaturate(lighten($base-color, 40%), 50%), 0.5)
+  $light-border-color: lighten($base-color, 0%)
+  $light-color: lighten($base-color, 10%)
+  $shadow-color: darken($base-color, 15%)
+  $text-shadow-color: darken($base-color, 15%)
+  +background-image(linear-gradient($light-color, $base-color, $dark-color))
+  +single-box-shadow($highlight-color, 1px, 1px, 0, 0, inset)
+  +single-text-shadow($text-shadow-color, 0, 1px, 2px)
+  background-color: $base-color
+  border-color: $border-color
+  border-left-color: $light-border-color
+  border-top-color: $light-border-color
+  color: white
+  &:hover, &:focus
+    +background-image(linear-gradient(lighten($light-color, 5%), lighten($base-color, 5%), $dark-color))
+  &:active, &.depressed
+    +background-image(linear-gradient(desaturate(lighten($dark-color, 5%),10%), desaturate($base-color, 10%)))
+    +single-box-shadow(none)
+    border-color: $border-color
+    

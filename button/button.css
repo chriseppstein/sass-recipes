@@ -1,0 +1,284 @@
+/* line 17, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, button.sass */
+body {
+  font-family: "Trebuchet MS", "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 30px;
+  text-align: center;
+}
+
+/* line 11, button.sass */
+p {
+  margin: 1em 0;
+}
+
+/* line 14, button.sass */
+a.button {
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  margin: 0.2em auto;
+  padding: 9px 1em;
+  text-align: center;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #89bbe2), color-stop(50%, #60a3d8), color-stop(100%, #378bce));
+  background-image: -webkit-linear-gradient(#89bbe2, #60a3d8, #378bce);
+  background-image: -moz-linear-gradient(#89bbe2, #60a3d8, #378bce);
+  background-image: -o-linear-gradient(#89bbe2, #60a3d8, #378bce);
+  background-image: -ms-linear-gradient(#89bbe2, #60a3d8, #378bce);
+  background-image: linear-gradient(#89bbe2, #60a3d8, #378bce);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.5);
+  -o-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.5);
+  box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.5);
+  text-shadow: #2e7ebd 0 1px 2px;
+  background-color: #60a3d8;
+  border-color: #2970a9;
+  border-left-color: #60a3d8;
+  border-top-color: #60a3d8;
+  color: white;
+}
+/* line 7, ../../../.rvm/gems/ruby-1.9.2-p290@sass-recipes/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+a.button {
+  *display: inline;
+}
+/* line 13, _button.sass */
+a.button:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 15, _button.sass */
+a.button:active {
+  padding: 10px 1em 8px;
+}
+/* line 36, _button.sass */
+a.button:hover, a.button:focus {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9dc7e7), color-stop(50%, #74afdd), color-stop(100%, #378bce));
+  background-image: -webkit-linear-gradient(#9dc7e7, #74afdd, #378bce);
+  background-image: -moz-linear-gradient(#9dc7e7, #74afdd, #378bce);
+  background-image: -o-linear-gradient(#9dc7e7, #74afdd, #378bce);
+  background-image: -ms-linear-gradient(#9dc7e7, #74afdd, #378bce);
+  background-image: linear-gradient(#9dc7e7, #74afdd, #378bce);
+}
+/* line 38, _button.sass */
+a.button:active, a.button.depressed {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5796c8), color-stop(100%, #6aa2ce));
+  background-image: -webkit-linear-gradient(#5796c8, #6aa2ce);
+  background-image: -moz-linear-gradient(#5796c8, #6aa2ce);
+  background-image: -o-linear-gradient(#5796c8, #6aa2ce);
+  background-image: -ms-linear-gradient(#5796c8, #6aa2ce);
+  background-image: linear-gradient(#5796c8, #6aa2ce);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border-color: #2970a9;
+}
+/* line 16, button.sass */
+a.button.green {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #83c96f), color-stop(50%, #63bb4a), color-stop(100%, #4e9939));
+  background-image: -webkit-linear-gradient(#83c96f, #63bb4a, #4e9939);
+  background-image: -moz-linear-gradient(#83c96f, #63bb4a, #4e9939);
+  background-image: -o-linear-gradient(#83c96f, #63bb4a, #4e9939);
+  background-image: -ms-linear-gradient(#83c96f, #63bb4a, #4e9939);
+  background-image: linear-gradient(#83c96f, #63bb4a, #4e9939);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(233, 233, 233, 0.5);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(233, 233, 233, 0.5);
+  -o-box-shadow: inset 1px 1px 0 0 rgba(233, 233, 233, 0.5);
+  box-shadow: inset 1px 1px 0 0 rgba(233, 233, 233, 0.5);
+  text-shadow: #458632 0 1px 2px;
+  background-color: #63bb4a;
+  border-color: #3b742b;
+  border-left-color: #63bb4a;
+  border-top-color: #63bb4a;
+  color: white;
+}
+/* line 36, _button.sass */
+a.button.green:hover, a.button.green:focus {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93d082), color-stop(50%, #73c25d), color-stop(100%, #4e9939));
+  background-image: -webkit-linear-gradient(#93d082, #73c25d, #4e9939);
+  background-image: -moz-linear-gradient(#93d082, #73c25d, #4e9939);
+  background-image: -o-linear-gradient(#93d082, #73c25d, #4e9939);
+  background-image: -ms-linear-gradient(#93d082, #73c25d, #4e9939);
+  background-image: linear-gradient(#93d082, #73c25d, #4e9939);
+}
+/* line 38, _button.sass */
+a.button.green:active, a.button.green.depressed {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5f9f4c), color-stop(100%, #6aaf56));
+  background-image: -webkit-linear-gradient(#5f9f4c, #6aaf56);
+  background-image: -moz-linear-gradient(#5f9f4c, #6aaf56);
+  background-image: -o-linear-gradient(#5f9f4c, #6aaf56);
+  background-image: -ms-linear-gradient(#5f9f4c, #6aaf56);
+  background-image: linear-gradient(#5f9f4c, #6aaf56);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border-color: #3b742b;
+}
+/* line 18, button.sass */
+a.button.red {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cc6666), color-stop(50%, #bf4040), color-stop(100%, #993333));
+  background-image: -webkit-linear-gradient(#cc6666, #bf4040, #993333);
+  background-image: -moz-linear-gradient(#cc6666, #bf4040, #993333);
+  background-image: -o-linear-gradient(#cc6666, #bf4040, #993333);
+  background-image: -ms-linear-gradient(#cc6666, #bf4040, #993333);
+  background-image: linear-gradient(#cc6666, #bf4040, #993333);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(230, 230, 230, 0.5);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(230, 230, 230, 0.5);
+  -o-box-shadow: inset 1px 1px 0 0 rgba(230, 230, 230, 0.5);
+  box-shadow: inset 1px 1px 0 0 rgba(230, 230, 230, 0.5);
+  text-shadow: #862d2d 0 1px 2px;
+  background-color: #bf4040;
+  border-color: #732626;
+  border-left-color: #bf4040;
+  border-top-color: #bf4040;
+  color: white;
+}
+/* line 36, _button.sass */
+a.button.red:hover, a.button.red:focus {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d27979), color-stop(50%, #c55353), color-stop(100%, #993333));
+  background-image: -webkit-linear-gradient(#d27979, #c55353, #993333);
+  background-image: -moz-linear-gradient(#d27979, #c55353, #993333);
+  background-image: -o-linear-gradient(#d27979, #c55353, #993333);
+  background-image: -ms-linear-gradient(#d27979, #c55353, #993333);
+  background-image: linear-gradient(#d27979, #c55353, #993333);
+}
+/* line 38, _button.sass */
+a.button.red:active, a.button.red.depressed {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a04545), color-stop(100%, #b24d4d));
+  background-image: -webkit-linear-gradient(#a04545, #b24d4d);
+  background-image: -moz-linear-gradient(#a04545, #b24d4d);
+  background-image: -o-linear-gradient(#a04545, #b24d4d);
+  background-image: -ms-linear-gradient(#a04545, #b24d4d);
+  background-image: linear-gradient(#a04545, #b24d4d);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border-color: #732626;
+}
+/* line 20, button.sass */
+a.button.orange {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e19951), color-stop(50%, #d98026), color-stop(100%, #ae661e));
+  background-image: -webkit-linear-gradient(#e19951, #d98026, #ae661e);
+  background-image: -moz-linear-gradient(#e19951, #d98026, #ae661e);
+  background-image: -o-linear-gradient(#e19951, #d98026, #ae661e);
+  background-image: -ms-linear-gradient(#e19951, #d98026, #ae661e);
+  background-image: linear-gradient(#e19951, #d98026, #ae661e);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(235, 230, 224, 0.5);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(235, 230, 224, 0.5);
+  -o-box-shadow: inset 1px 1px 0 0 rgba(235, 230, 224, 0.5);
+  box-shadow: inset 1px 1px 0 0 rgba(235, 230, 224, 0.5);
+  text-shadow: #985a1b 0 1px 2px;
+  background-color: #d98026;
+  border-color: #824d17;
+  border-left-color: #d98026;
+  border-top-color: #d98026;
+  color: white;
+}
+/* line 36, _button.sass */
+a.button.orange:hover, a.button.orange:focus {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e4a667), color-stop(50%, #dd8d3c), color-stop(100%, #ae661e));
+  background-image: -webkit-linear-gradient(#e4a667, #dd8d3c, #ae661e);
+  background-image: -moz-linear-gradient(#e4a667, #dd8d3c, #ae661e);
+  background-image: -o-linear-gradient(#e4a667, #dd8d3c, #ae661e);
+  background-image: -ms-linear-gradient(#e4a667, #dd8d3c, #ae661e);
+  background-image: linear-gradient(#e4a667, #dd8d3c, #ae661e);
+}
+/* line 38, _button.sass */
+a.button.orange:active, a.button.orange.depressed {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b8732e), color-stop(100%, #cc8033));
+  background-image: -webkit-linear-gradient(#b8732e, #cc8033);
+  background-image: -moz-linear-gradient(#b8732e, #cc8033);
+  background-image: -o-linear-gradient(#b8732e, #cc8033);
+  background-image: -ms-linear-gradient(#b8732e, #cc8033);
+  background-image: linear-gradient(#b8732e, #cc8033);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border-color: #824d17;
+}
