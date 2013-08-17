@@ -6,16 +6,15 @@
 // [1]: http://nicolasgallagher.com/demo/pure-css-speech-bubbles/bubbles.html
 //
 //
-@function convert-direction($direction) {
+@function convert-direction($direction)
  @if $direction == "south"
- 	@return "bottom"
+ 	 @return "bottom"
  @if $direction == "north"
- 	@return "top"
+ 	 @return "top"
  @if $direction == "east"
-    @return "right"
+   @return "right"
  @if $direction == "west"
-    @return "left"
-}
+   @return "left"
 
 
 =arrow($direction, $bg-color, $border-color, $border-width, $top, $left, $width: 10px)
